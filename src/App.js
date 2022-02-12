@@ -2,7 +2,7 @@
 import './App.css';
 import { useNavigate } from "react-router-dom"
 import 'materialize-css'
-import { Button, Card, Row, Col } from 'react-materialize'
+import { Button, Row } from 'react-materialize'
 import Header from './components/Header'
 
 export default function App() {
@@ -11,6 +11,12 @@ export default function App() {
 
   const aboutPage = () => {
     navigate("/about");
+  };
+  const projectPage = () => {
+    navigate("/projects");
+  };
+  const contactPage = () => {
+    navigate("/contact");
   };
 
   return (
@@ -32,12 +38,12 @@ export default function App() {
             Thank you for stopping by my little "home" on the web! Stay awhile, look around, and enjoy your stay!
             <p></p>
           
-            <Button onclick={aboutPage} className="btn waves-effect waves-green aboutMeLink">Learn More About
+            <Button onClick={aboutPage}>Learn More About
                 Me</Button><br />
-             <button  className="btn waves-effect waves-green workLink">Check out my latest
-                projects</button><br />
-            <button  className="btn waves-effect waves-green contactMeLink">How to Reach
-                Me</button> 
+             <Button onClick={projectPage}>Check out my latest
+                projects</Button><br />
+            <Button onClick={contactPage}>How to Reach
+                Me</Button> 
               
             <br />
           </div>

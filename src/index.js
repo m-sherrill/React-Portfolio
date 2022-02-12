@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import './index.css';
+import 'materialize-css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import About from './pages/About'
@@ -11,16 +12,14 @@ import Contact from './pages/Contact'
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-    
     <Routes>
       <Route path="/" element={<App />} />
-        <Route path="/login" element={<About />} />
-        <Route path="/about" element={<Projects />} />
-        <Route path="/signup" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       {/* <Route path="/forgot-password" element={<ForgotPassword/>} />
       <Route path="/calendar" element={<Calendar/>} /> */}
     </Routes>
-
 </Router>
   </React.StrictMode>,
   document.getElementById('root')
