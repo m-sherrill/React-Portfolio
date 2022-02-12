@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-portolio/static/css/main.85ad5e6d.css",
-    "main.js": "/react-portolio/static/js/main.c8828233.js",
+    "main.js": "/react-portolio/static/js/main.4283d704.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/pexels-sohail-na-807598.jpg": "/react-portolio/static/media/pexels-sohail-na-807598.373675a277c9d9e69c48.jpg",
     "static/media/wood-g529fdf925_1920.jpg": "/react-portolio/static/media/wood-g529fdf925_1920.2353af8f801bdee677d7.jpg",
     "index.html": "/react-portolio/index.html",
     "main.85ad5e6d.css.map": "/react-portolio/static/css/main.85ad5e6d.css.map",
-    "main.c8828233.js.map": "/react-portolio/static/js/main.c8828233.js.map",
+    "main.4283d704.js.map": "/react-portolio/static/js/main.4283d704.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85ad5e6d.css",
-    "static/js/main.c8828233.js"
+    "static/js/main.4283d704.js"
   ]
 }
