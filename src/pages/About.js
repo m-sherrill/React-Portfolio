@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom"
 
 import { Container, Button, Row, Col } from 'react-materialize'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const About = () => {
 
@@ -37,7 +38,9 @@ const About = () => {
         </Col>
       </Row>    
         
-    </Container></>
+    </Container>
+    <Footer/>
+    </>
   
   )
 }
