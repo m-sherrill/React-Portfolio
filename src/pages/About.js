@@ -11,7 +11,7 @@ const About = () => {
     let navigate = useNavigate();
 
     const returnHome = () => {
-      navigate("/react-portfolio");
+      navigate("/React-Portfolio");
     };
 
   return (
