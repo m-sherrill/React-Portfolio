@@ -13,10 +13,10 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
     <Routes>
-      <Route path="/" element={<App />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+      <Route path="/react-portfolio" element={<App />} />
+        <Route path="/react-portfolio/about" element={<About />} />
+        <Route path="/react-portfolio/projects" element={<Projects />} />
+        <Route path="/react-portfolio/contact" element={<Contact />} />
       {/* <Route path="/forgot-password" element={<ForgotPassword/>} />
       <Route path="/calendar" element={<Calendar/>} /> */}
     </Routes>
