@@ -11,13 +11,13 @@ export default function App() {
   let navigate = useNavigate();
 
   const aboutPage = () => {
-    navigate("/React-Portfolio/about");
+    navigate("/about");
   };
   const projectPage = () => {
-    navigate("/React-Portfolio/projects");
+    navigate("/projects");
   };
   const contactPage = () => {
-    navigate("/React-Portfolio/contact");
+    navigate("/contact");
   };
 
   return (
@@ -30,7 +30,7 @@ export default function App() {
     <div id="intro">
       <Row id="heroRow">
         <div className="col s12 m6 center-align" id="heroCol1">
-          <img id="myPhotoImg" src="/React-Portfolio/assets/images/msherrill.png" alt="Morgan Sherrill" />
+          <img id="myPhotoImg" src="./assets/images/msherrill.png" alt="Morgan Sherrill" />
         </div>
         <div className="col s12 m6" id="heroCol2">
           <div>
