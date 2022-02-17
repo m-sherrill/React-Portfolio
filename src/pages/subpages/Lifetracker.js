@@ -24,7 +24,7 @@ const Lifetracker = () => {
             Repo</Button></a><br /><br />
         </Row>
         <Row id="textContent">
-
+          <Row>
           <div className="col s12 m4" id="languages">
             <h5>Languages Used</h5>
             HTML<br />
@@ -65,7 +65,7 @@ const Lifetracker = () => {
           <img className="responsive-img" src="assets/images/lifetrackerscreenshot.png" alt="screenshot of lifetracker app"/><br /><br />
 
           </div>
-
+          </Row>
       <ReturnToTop />
       </Container>
     <Footer /></>
