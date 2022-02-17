@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ReturnToTop from '../components/ReturnToTop';
 import ContactNav from '../components/ContactNav';
+import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
 
@@ -35,9 +36,11 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/morgan-sherrill-9a838b28/" target="_blank" rel="noreferrer" ><img
             src="assets/images/linkedinicon.png" data-tip="LinkedIn" alt="linkedin icon" data-text-color="black"/></a>
           <a href="msherrillresume.pdf" download rel="noreferrer" ><img src="assets/images/resume.png"
-            data-tip="Resume" alt="resume icon" data-text-color="black" /></a><br /><br />
+            data-tip="Resume" alt="resume icon" data-text-color="black" /></a>
         </div>
         
+        <ContactForm />
+       
         <Col s={12} className="center-align">
           <ReturnToTop />
         </Col>
