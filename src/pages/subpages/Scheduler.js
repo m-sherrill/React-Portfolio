@@ -26,7 +26,7 @@ const Scheduler = () => {
             </Row>
             <Row id="textContent">
                 
-                <div className="col s12 m6" id="languages">
+            <Col s={12} m={6} id="languages">
                     <h5>Languages Used</h5>
                     HTML<br />
                     CSS<br />
@@ -36,17 +36,17 @@ const Scheduler = () => {
                     </p>
                     Jquery<br />
                     Bootstrap<br />
-                </div>
-                <div className="col s12 m6 left-align" id="projectDesc">
+                </Col>
+                <Col s={12} m={6} className="left-align" id="projectDesc">
                     <h5>Project Description</h5>
                     Create a simple work day calendar which shows normal business hours. The user should be able to add
                     content to each hour block and save it to local storage to keep track of their day. When they open
                     the page, the current day's date should display at the top of the page. Additionally, the time
                     blocks should be color coded to represent past, present, and future. For this application, the color
                     coding is on the column with the time of day display.
-                </div>
+                </Col>
 
-                <div className="col s12 left-align" id="thoughts">
+                <Col s={6} className="left-align" id="thoughts">
                     <h5>Project Thoughts</h5>
                     This project was really fun. We were provided starter code, which I nearly removed all of it and
                     started over. I really enjoy the CSS styling of any project I work on and the original code would
@@ -63,11 +63,11 @@ const Scheduler = () => {
                     Although not a part of the specific assignment description, I also challenged myself to use
                     Javascript to populate a lot of my page verses relying on HTML. I got it to work exactly as I
                     anticipated and this was really an exciting moment for me in my Javascript journey.
-                </div>
-                <div className="col s12" id="screenshots">
+                </Col>
+                <Col s={12} id="screenshots">
                     <h5>Screenshots of Live Deloyment</h5>
                     <img className="responsive-img" src="assets/images/plannerScreenshot.PNG" alt="screenshot of day planner app"/>
-                </div>
+                </Col>
                 
             </Row>
             <ReturnToTop />

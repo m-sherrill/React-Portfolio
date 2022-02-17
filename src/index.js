@@ -12,6 +12,7 @@ import Weatherapp from './pages/subpages/Weatherapp'
 import Scheduler from './pages/subpages/Scheduler'
 import Tunespace from './pages/subpages/Tunespace'
 import TechBlog from './pages/subpages/TechBlog'
+import CodeQuiz from './pages/subpages/CodeQuiz'
 // import Page404 from '/pages/Page404.js'
 
 ReactDOM.render(
@@ -28,6 +29,7 @@ ReactDOM.render(
         <Route path="/tunespace" element={<Tunespace />} />
         <Route path="/lifetracker" element={<Lifetracker />} />
         <Route path="/techblog" element={<TechBlog />} />
+        <Route path="/codequiz" element={<CodeQuiz />} />
         {/* <Route path="/*" element={<Page404 />} /> */}
       </Routes>
     </Router>

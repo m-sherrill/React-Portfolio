@@ -88,6 +88,18 @@ const Projects = () => {
             <div id="techblogContent" style={styles.cardLinks}><a href="https://msherrill-techblog.herokuapp.com" target="_blank" rel="noreferrer">Live Deployment</a><br/><a href="https://github.com/m-sherrill/tech-blog" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/techblog">Project Report</Link></div>
           </div>
+
+          <div>
+            <div id="techblog">
+              <img src="assets/images/codequiz.png" useMap="#codequiz" alt="screenshot of code quiz" />
+              <map name="codequiz">
+                <area shape="rect" coords="15,15,228,232" alt="Computer"
+                  href="https://msherrill-techblog.herokuapp.com/" target="_blank" rel="noreferrer" />
+              </map>
+            </div>
+            <div id="techblogContent" style={styles.cardLinks}><a href="https://msherrill-techblog.herokuapp.com" target="_blank" rel="noreferrer">Live Deployment</a><br/><a href="https://github.com/m-sherrill/tech-blog" target="_blank" rel="noreferrer">GitHub
+              Repo</a><br /><Link to="/codequiz">Project Report</Link></div>
+          </div>
         </Row>
         <ReturnToTop />
       </Container>
