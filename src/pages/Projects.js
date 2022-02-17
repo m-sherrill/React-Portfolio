@@ -8,6 +8,17 @@ import ProjectsNav from '../components/ProjectsNav';
 import ReturnToTop from '../components/ReturnToTop';
 
 const Projects = () => {
+  const styles = {
+    cardLinks: {
+      border: "1px solid",
+      padding: "5px",
+      marginLeft: "15px",
+      marginRight: "15px",
+      marginBottom: "10px",
+      backgroundColor: "rgba(0, 0, 0, 0.329)",
+    }
+  }
+
   return (
     <>
       <Header />
@@ -25,7 +36,7 @@ const Projects = () => {
                   href="https://m-sherrill.github.io/work-day-planner/" target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="dailyTrackerContent"><a href="https://github.com/m-sherrill/work-day-planner" target="_blank" rel="noreferrer">GitHub
+            <div id="dailyTrackerContent" style={styles.cardLinks}><a href="https://m-sherrill.github.io/work-day-planner/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/m-sherrill/work-day-planner" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/scheduler">Project Report</Link></div>
           </div>
 
@@ -37,7 +48,8 @@ const Projects = () => {
                   target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="weatherAppContent"><a href="https://github.com/m-sherrill/weather-app" target="_blank" rel="noreferrer">GitHub
+            <div id="weatherAppContent" style={styles.cardLinks}>
+            <a href="https://m-sherrill.github.io/weather-app/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/m-sherrill/weather-app" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/weatherapp">Project Report</Link></div>
           </div>
 
@@ -49,7 +61,7 @@ const Projects = () => {
                   href="https://mjamesd.github.io/crispy-happiness/" target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="tuneSpaceContent"><a href="https://github.com/mjamesd/crispy-happiness" target="_blank" rel="noreferrer">GitHub
+            <div id="tuneSpaceContent" style={styles.cardLinks}><a href="https://mjamesd.github.io/crispy-happiness/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/mjamesd/crispy-happiness" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/tunespace">Project Report</Link></div>
           </div>
 
@@ -61,7 +73,7 @@ const Projects = () => {
                   href="https://lifetracker-project2.herokuapp.com/" target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="lifetrackerContent"><a href="https://github.com/m-sherrill/Project-2" target="_blank" rel="noreferrer">GitHub
+            <div id="lifetrackerContent" style={styles.cardLinks}><a href="https://lifetracker-project2.herokuapp.com/" target="_blank" rel="noreferrer">Live Deployment</a><br/><a href="https://github.com/m-sherrill/Project-2" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/lifetracker">Project Report</Link></div>
           </div>
 
@@ -73,7 +85,7 @@ const Projects = () => {
                   href="https://msherrill-techblog.herokuapp.com/" target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="techblogContent"><a href="https://github.com/m-sherrill/tech-blog" target="_blank" rel="noreferrer">GitHub
+            <div id="techblogContent" style={styles.cardLinks}><a href="https://msherrill-techblog.herokuapp.com" target="_blank" rel="noreferrer">Live Deployment</a><br/><a href="https://github.com/m-sherrill/tech-blog" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/techblog">Project Report</Link></div>
           </div>
         </Row>

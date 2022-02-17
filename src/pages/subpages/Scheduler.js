@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import '../../ProjectStyles.css';
+import './ProjectStyles.css';
 import { Container, Button, Row, Col } from 'react-materialize'
 import ProjectsHeader from '../../components/ProjectsHeader'
 import Footer from '../../components/Footer';
