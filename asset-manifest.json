@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.14c34229.css",
-    "main.js": "/static/js/main.0e30ac6f.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/pexels-sohail-na-807598.jpg": "/static/media/pexels-sohail-na-807598.373675a277c9d9e69c48.jpg",
-    "static/media/wood-g529fdf925_1920.jpg": "/static/media/wood-g529fdf925_1920.2353af8f801bdee677d7.jpg",
-    "index.html": "/index.html",
-    "main.14c34229.css.map": "/static/css/main.14c34229.css.map",
-    "main.0e30ac6f.js.map": "/static/js/main.0e30ac6f.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/React-Portfolio/static/css/main.86c8c692.css",
+    "main.js": "/React-Portfolio/static/js/main.8e9acdd4.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/pexels-sohail-na-807598.jpg": "/React-Portfolio/static/media/pexels-sohail-na-807598.373675a277c9d9e69c48.jpg",
+    "static/media/wood-g529fdf925_1920.jpg": "/React-Portfolio/static/media/wood-g529fdf925_1920.2353af8f801bdee677d7.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.86c8c692.css.map": "/React-Portfolio/static/css/main.86c8c692.css.map",
+    "main.8e9acdd4.js.map": "/React-Portfolio/static/js/main.8e9acdd4.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14c34229.css",
-    "static/js/main.0e30ac6f.js"
+    "static/css/main.86c8c692.css",
+    "static/js/main.8e9acdd4.js"
   ]
 }
