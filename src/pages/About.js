@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom"
 import { Container, Button, Row, Col } from 'react-materialize'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import FixedMenu from '../components/FixedMenu'
 
 const About = () => {
 
@@ -37,8 +38,9 @@ const About = () => {
               class="material-icons">home</i></Button>
         </Col>
       </Row>    
-        
+      
     </Container>
+    <FixedMenu/>
     <Footer/>
     </>
   
