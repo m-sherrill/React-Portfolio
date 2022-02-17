@@ -3,6 +3,7 @@ import '../App.css';
 import { useNavigate } from "react-router-dom"
 
 import { Container, Button, Row, Col } from 'react-materialize'
+import PagesNav from '../components/PagesNav'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import FixedMenu from '../components/FixedMenu'
@@ -16,7 +17,9 @@ const About = () => {
     };
 
   return (
-    <><Header />
+    <>
+    <Header />
+    <PagesNav />
     <Container id="aboutme">
     <Row id="aboutMeDesc">
         <Col s={12} id="aboutMeTitle">

@@ -19,9 +19,9 @@ const Weatherapp = () => {
             <h1>Weather App</h1>
             <h4>Project Report</h4><br /><br />
             <Row id="btnContainer">
-                <a href="https://m-sherrill.github.io/weather-app/" target="_blank"><Button>Live
+                <a href="https://m-sherrill.github.io/weather-app/" target="_blank" rel="noreferrer"><Button>Live
                     Deployment</Button></a><br /><br />
-                <a href="https://github.com/m-sherrill/weather-app" target="_blank"><Button>GitHub
+                <a href="https://github.com/m-sherrill/weather-app" target="_blank" rel="noreferrer"><Button>GitHub
                         Repo</Button></a><br /><br />
             </Row>
             <Row id="textContent">
