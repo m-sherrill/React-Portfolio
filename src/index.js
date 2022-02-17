@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 import 'materialize-css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -17,7 +17,7 @@ import TechBlog from './pages/subpages/TechBlog'
 ReactDOM.render(
   <React.StrictMode>
 {/* Routes for all the pages within the application */}
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
