@@ -23,7 +23,7 @@ const Projects = () => {
               </map>
             </div>
             <div id="dailyTrackerContent"><a href="https://github.com/m-sherrill/work-day-planner" target="_blank" rel="noreferrer">GitHub
-              Repo</a><br /><a href="dailyplanner.html">Project Report</a></div>
+              Repo</a><br /><Link to="/scheduler">Project Report</Link></div>
           </div>
 
           <div>
@@ -35,7 +35,7 @@ const Projects = () => {
               </map>
             </div>
             <div id="weatherAppContent"><a href="https://github.com/m-sherrill/weather-app" target="_blank" rel="noreferrer">GitHub
-              Repo</a><br /><a href="weatherapp.html">Project Report</a></div>
+              Repo</a><br /><Link to="/weatherapp">Project Report</Link></div>
           </div>
 
           <div>
@@ -47,7 +47,7 @@ const Projects = () => {
               </map>
             </div>
             <div id="tuneSpaceContent"><a href="https://github.com/mjamesd/crispy-happiness" target="_blank" rel="noreferrer">GitHub
-              Repo</a><br /><a href="tunespace.html">Project Report</a></div>
+              Repo</a><br /><Link to="/tunespace">Project Report</Link></div>
           </div>
 
           <div>
@@ -59,7 +59,7 @@ const Projects = () => {
               </map>
             </div>
             <div id="lifetrackerContent"><a href="https://github.com/m-sherrill/Project-2" target="_blank" rel="noreferrer">GitHub
-              Repo</a><br /><a href="lifetracker.html">Project Report</a></div>
+              Repo</a><br /><Link to="/lifetracker">Project Report</Link></div>
           </div>
 
           <div>
@@ -71,7 +71,7 @@ const Projects = () => {
               </map>
             </div>
             <div id="techblogContent"><a href="https://github.com/m-sherrill/tech-blog" target="_blank" rel="noreferrer">GitHub
-              Repo</a><br /><a href="techblog.html">Project Report</a></div>
+              Repo</a><br /><Link to="/techblog">Project Report</Link></div>
           </div>
         </Row>
         <Link className="btn-floating btn-large introLink" to="/"><i className="material-icons" alt="home button">home</i></Link>

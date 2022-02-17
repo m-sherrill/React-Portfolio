@@ -1,14 +1,18 @@
 import React from 'react'
 import '../App.css';
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import ReactTooltip from "react-tooltip"
-import { Container } from 'react-materialize'
+import { Container, Button } from 'react-materialize'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 const Contact = () => {
 
+  let navigate = useNavigate();
 
+  const returnHome = () => {
+    navigate("/");
+  };
 
   return (
 
@@ -29,8 +33,10 @@ const Contact = () => {
             src="assets/images/linkedinicon.png" data-tip="LinkedIn" alt="linkedin icon" /></a>
           <a href="msherrillresume.pdf" download rel="noreferrer" ><img src="assets/images/resume.png"
             data-tip="Resume" alt="resume icon" /></a><br /><br />
-          <Link className="btn-floating btn-large introLink" to="/"><i className="material-icons" alt="home button">home</i></Link>
-        </div>
+        
+        <Button className="waves-effect waves-green btn-floating btn-large introLink" onClick={returnHome}><i
+              class="material-icons">home</i></Button>
+              </div>
       </Container>
       <Footer />
     </>
