@@ -2,9 +2,9 @@ import React from 'react'
 import { Button, Container } from 'react-materialize'
 import { useNavigate } from "react-router-dom"
 
-const ProjectsHeader = () => {
+const AboutNav = () => {
 
-    let navigate = useNavigate();
+  let navigate = useNavigate();
 
     const returnHome = () => {
       navigate("/");
@@ -24,28 +24,20 @@ const ProjectsHeader = () => {
             fontWeight: 400,
         },
         container: {
-            paddingTop: "35px",
           paddingBottom: "35px",
           borderBottom: "1px solid rgba(255, 255, 255, 0.466)",
           marginBottom: "25px",
         }
       };
 
-    return (
-      <>
-            <div id="websiteFrameTop" className="websiteFrame"></div>
-            <div id="websiteFrameRight" className="websiteFrame"></div>
-            <div id="websiteFrameBottom" className="websiteFrame"></div>
-            <div id="websiteFrameLeft" className="websiteFrame"></div>
-
-        <Container className="center-align" style={styles.container}>
+  return (
+    <Container className="center-align" style={styles.container}>
         <Button waves="green" style={styles.button} onClick={returnHome}>Home</Button>
-        <Button waves="green" style={styles.button} onClick={aboutPage}>About</Button>
+        <Button disabled waves="green" style={styles.button} onClick={aboutPage}>About</Button>
         <Button waves="green" style={styles.button} onClick={projectPage}>Projects</Button>
         <Button waves="green" style={styles.button} onClick={contactPage}>Contact</Button>
     </Container>
-      </>
-    )
+  )
 }
 
-export default ProjectsHeader
+export default AboutNav

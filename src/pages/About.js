@@ -3,10 +3,10 @@ import '../App.css';
 import { useNavigate } from "react-router-dom"
 
 import { Container, Button, Row, Col } from 'react-materialize'
-import PagesNav from '../components/PagesNav'
+import AboutNav from '../components/AboutNav'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import FixedMenu from '../components/FixedMenu'
+import ReturnToTop from '../components/ReturnToTop';
 
 const About = () => {
 
@@ -16,10 +16,17 @@ const About = () => {
       navigate("/");
     };
 
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+
   return (
     <>
     <Header />
-    <PagesNav />
+    <AboutNav />
     <Container id="aboutme">
     <Row id="aboutMeDesc">
         <Col s={12} id="aboutMeTitle">
@@ -37,13 +44,11 @@ const About = () => {
         </Col>
         
         <Col s={12} className="center-align">
-          <Button className="waves-effect waves-green btn-floating btn-large introLink" onClick={returnHome}><i
-              class="material-icons">home</i></Button>
+          <ReturnToTop />
         </Col>
       </Row>    
       
     </Container>
-    <FixedMenu/>
     <Footer/>
     </>
   

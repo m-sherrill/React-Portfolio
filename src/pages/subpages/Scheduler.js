@@ -3,7 +3,8 @@ import '../../ProjectStyles.css';
 import { useNavigate, Link } from "react-router-dom"
 import { Container, Button, Row, Col } from 'react-materialize'
 import ProjectsHeader from '../../components/ProjectsHeader'
-import ProjectsFooter from '../../components/ProjectsFooter'
+import Footer from '../../components/Footer';
+import ReturnToTop from '../../components/ReturnToTop';
 
 const Scheduler = () => {
 
@@ -19,9 +20,9 @@ const Scheduler = () => {
             <h1>Daily Planner</h1>
             <h4>Project Report</h4><br /><br />
             <Row id="btnContainer">
-                <a href="https://m-sherrill.github.io/work-day-planner/" target="_blank"><Button>Live
+                <a href="https://m-sherrill.github.io/work-day-planner/" target="_blank" rel="noreferrer"><Button className="teal darken-2">Live
                     Deployment</Button></a><br /><br />
-                <a href="https://github.com/m-sherrill/work-day-planner" target="_blank"><Button>GitHub
+                <a href="https://github.com/m-sherrill/work-day-planner" target="_blank" rel="noreferrer"><Button className="teal darken-2">GitHub
                         Repo</Button></a><br /><br />
             </Row>
             <Row id="textContent">
@@ -70,9 +71,10 @@ const Scheduler = () => {
                 </div>
                 
             </Row>
+            <ReturnToTop />
         </Container>
 
-    <ProjectsFooter />
+    <Footer />
     </>
   )
 }

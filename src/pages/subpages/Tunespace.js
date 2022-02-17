@@ -3,7 +3,8 @@ import '../../ProjectStyles.css';
 import { useNavigate, Link } from "react-router-dom"
 import { Container, Button, Row, Col } from 'react-materialize'
 import ProjectsHeader from '../../components/ProjectsHeader'
-import ProjectsFooter from '../../components/ProjectsFooter'
+import Footer from '../../components/Footer';
+import ReturnToTop from '../../components/ReturnToTop';
 
 const Tunespace = () => {
 
@@ -18,9 +19,9 @@ const Tunespace = () => {
         <h1>TuneSpace</h1>
         <h4>Project Report</h4><br /><br />
         <Row id="btnContainer">
-          <a href="https://mjamesd.github.io/crispy-happiness/" target="_blank"><Button>Live
+          <a href="https://mjamesd.github.io/crispy-happiness/" target="_blank" rel="noreferrer"><Button className="teal darken-2">Live
             Deployment</Button></a><br /><br />
-          <a href="https://github.com/mjamesd/crispy-happiness" target="_blank"><Button>GitHub
+          <a href="https://github.com/mjamesd/crispy-happiness" target="_blank" rel="noreferrer"><Button className="teal darken-2">GitHub
             Repo</Button></a><br /><br />
         </Row>
         <Row id="textContent">
@@ -47,11 +48,11 @@ const Tunespace = () => {
           </div>
           <div className="col s12 m4" id="languages">
             <h5>Project Developers</h5>
-            <a href="https://github.com/m-sherrill" target="_blank">Morgan Sherrill</a><br />
-            <a href="https://github.com/mjamesd" target="_blank">Mark Drummond</a><br />
-            <a href="https://github.com/DanPGolden" target="_blank">Dan Golden</a><br />
-            <a href="https://github.com/JefreyColegrove" target="_blank">Jefrey Colegrove</a><br />
-            <a href="https://github.com/Maykanwara" target="_blank">Kanwara Moore</a><br />
+            <a href="https://github.com/m-sherrill" target="_blank" rel="noreferrer">Morgan Sherrill</a><br />
+            <a href="https://github.com/mjamesd" target="_blank" rel="noreferrer">Mark Drummond</a><br />
+            <a href="https://github.com/DanPGolden" target="_blank" rel="noreferrer">Dan Golden</a><br />
+            <a href="https://github.com/JefreyColegrove" target="_blank" rel="noreferrer">Jefrey Colegrove</a><br />
+            <a href="https://github.com/Maykanwara" target="_blank" rel="noreferrer">Kanwara Moore</a><br />
           </div>
           <div className="col s12 left-align" id="projectDesc">
             <h5>Project Description</h5>
@@ -72,8 +73,9 @@ const Tunespace = () => {
           </div>
 
         </Row>
+        <ReturnToTop />
       </Container>
-      <ProjectsFooter />
+      <Footer />
     </>
   )
 }

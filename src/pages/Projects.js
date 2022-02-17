@@ -4,11 +4,14 @@ import { Link } from "react-router-dom"
 import { Container, Row } from 'react-materialize'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import ProjectsNav from '../components/ProjectsNav';
+import ReturnToTop from '../components/ReturnToTop';
 
 const Projects = () => {
   return (
     <>
       <Header />
+      <ProjectsNav />
       <Container className="center-align">
         <Row id="workDesc">
           Latest Projects
@@ -74,7 +77,7 @@ const Projects = () => {
               Repo</a><br /><Link to="/techblog">Project Report</Link></div>
           </div>
         </Row>
-        <Link className="btn-floating btn-large introLink" to="/"><i className="material-icons" alt="home button">home</i></Link>
+        <ReturnToTop />
       </Container>
       <Footer />
     </>

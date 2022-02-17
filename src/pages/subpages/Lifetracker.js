@@ -3,7 +3,8 @@ import '../../ProjectStyles.css';
 import { useNavigate, Link } from "react-router-dom"
 import { Container, Button, Row, Col } from 'react-materialize'
 import ProjectsHeader from '../../components/ProjectsHeader'
-import ProjectsFooter from '../../components/ProjectsFooter'
+import Footer from '../../components/Footer';
+import ReturnToTop from '../../components/ReturnToTop';
 
 const Lifetracker = () => {
 
@@ -18,9 +19,9 @@ const Lifetracker = () => {
         <h1>LifeTracker</h1>
         <h4>Project Report</h4><br /><br />
         <Row id="btnContainer">
-          <a href="https://lifetracker-project2.herokuapp.com/" target="_blank" rel="noreferrer"><Button>Live
+          <a href="https://lifetracker-project2.herokuapp.com/" target="_blank" rel="noreferrer"><Button className="teal darken-2">Live
             Deployment</Button></a><br /><br />
-          <a href="https://github.com/m-sherrill/Project-2" target="_blank" rel="noreferrer"><Button>GitHub
+          <a href="https://github.com/m-sherrill/Project-2" target="_blank" rel="noreferrer"><Button className="teal darken-2">GitHub
             Repo</Button></a><br /><br />
         </Row>
         <Row id="textContent">
@@ -66,9 +67,9 @@ const Lifetracker = () => {
 
           </div>
 
-      
+      <ReturnToTop />
       </Container>
-    <ProjectsFooter /></>
+    <Footer /></>
   
   )
 }
