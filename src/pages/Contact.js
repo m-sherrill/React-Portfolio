@@ -21,7 +21,7 @@ const Contact = () => {
 
         <div id="contactMeContent">
           <ReactTooltip place="top" type="success" effect="solid" />
-          <a href="mailto:mo.sherrill@outlook.com" target="_blank" rel="noreferrer" ><img src="assets/images/emailicon.png" alt="email icon" data-tip="Email" data-background-color="darkGreen" /></a>
+          <a href="mailto:mo.sherrill@outlook.com" target="_blank" rel="noreferrer" ><img src="assets/images/emailicon.png" alt="email icon" data-tip="Email" data-text-color="black" /></a>
 
           <a href="http://github.com/m-sherrill" target="_blank" rel="noreferrer" ><img src="assets/images/githubicon.png"
             data-tip="GitHub" alt="github icon" /></a>
