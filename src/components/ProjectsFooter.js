@@ -12,6 +12,7 @@ const ProjectsFooter = () => {
         <>
             
                 <Button className="fixed-action-btn btn-floating btn-large" onClick={returnHome}><i className="material-icons">home</i></Button>
+                
         
         </>
     )
