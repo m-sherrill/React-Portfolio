@@ -17,7 +17,7 @@ import TechBlog from './pages/subpages/TechBlog'
 ReactDOM.render(
   <React.StrictMode>
 {/* Routes for all the pages within the application */}
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
