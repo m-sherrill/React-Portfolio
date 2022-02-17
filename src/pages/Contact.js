@@ -1,6 +1,5 @@
 import React from 'react'
 import '../App.css';
-import { useNavigate } from "react-router-dom"
 import ReactTooltip from "react-tooltip"
 import { Container, Col } from 'react-materialize'
 import Header from '../components/Header'
@@ -10,12 +9,6 @@ import ContactNav from '../components/ContactNav';
 import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
-
-  let navigate = useNavigate();
-
-  const returnHome = () => {
-    navigate("/");
-  };
 
   return (
 

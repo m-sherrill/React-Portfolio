@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import '../../ProjectStyles.css';
-import { useNavigate, Link } from "react-router-dom"
 import { Container, Button, Row, Col } from 'react-materialize'
 import ProjectsHeader from '../../components/ProjectsHeader'
 import Footer from '../../components/Footer';
@@ -67,7 +66,7 @@ const Scheduler = () => {
                 </div>
                 <div className="col s12" id="screenshots">
                     <h5>Screenshots of Live Deloyment</h5>
-                    <img className="responsive-img" src="assets/images/plannerScreenshot.PNG" />
+                    <img className="responsive-img" src="assets/images/plannerScreenshot.PNG" alt="screenshot of day planner app"/>
                 </div>
                 
             </Row>

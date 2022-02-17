@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import '../../ProjectStyles.css';
-import { useNavigate, Link } from "react-router-dom"
 import { Container, Button, Row, Col } from 'react-materialize'
 import ProjectsHeader from '../../components/ProjectsHeader'
 import Footer from '../../components/Footer';
@@ -67,9 +66,9 @@ const Tunespace = () => {
           </div>
           <div className="col s12" id="screenshots">
             <h5>Screenshots of Live Deloyment</h5>
-            <img className="responsive-img" src="assets/images/tunespaceArtistScreenshot.PNG" /><br /><br />
+            <img className="responsive-img" src="assets/images/tunespaceArtistScreenshot.PNG" alt="screenshot of tunespace app" /><br /><br />
 
-            <img className="responsive-img" src="assets/images/tunespaceTracksScreenshot.PNG" /><br />
+            <img className="responsive-img" src="assets/images/tunespaceTracksScreenshot.PNG" alt="screenshot of tunespace app" /><br />
           </div>
 
         </Row>
