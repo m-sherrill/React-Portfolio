@@ -46,7 +46,7 @@ const Scheduler = () => {
                     coding is on the column with the time of day display.
                 </Col>
 
-                <Col s={6} className="left-align" id="thoughts">
+                <Col s={12} className="left-align" id="thoughts">
                     <h5>Project Thoughts</h5>
                     This project was really fun. We were provided starter code, which I nearly removed all of it and
                     started over. I really enjoy the CSS styling of any project I work on and the original code would
