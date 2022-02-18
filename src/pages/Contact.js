@@ -28,7 +28,7 @@ const Contact = () => {
             data-tip="GitHub" alt="github icon" data-text-color="black"/></a>
           <a href="https://www.linkedin.com/in/morgan-sherrill-9a838b28/" target="_blank" rel="noreferrer" ><img
             src="assets/images/linkedinicon.png" data-tip="LinkedIn" alt="linkedin icon" data-text-color="black"/></a>
-          <a href="msherrillresume.pdf" download rel="noreferrer" ><img src="assets/images/resume.png"
+          <a href="assets/msherrillresume.pdf" download rel="noreferrer" ><img src="assets/images/resume.png"
             data-tip="Resume" alt="resume icon" data-text-color="black" /></a>
         </div>
         
