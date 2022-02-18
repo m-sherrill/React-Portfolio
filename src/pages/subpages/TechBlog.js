@@ -46,7 +46,7 @@ const TechBlog = () => {
                 </Col>
 
                 <Col s={12} className="left-align" id="thoughts">
-                    <br/><br/><h5>Project Thoughts</h5>
+                    <br/><h5>Project Thoughts</h5>
                     This project was actually quite huge! This was really my first full stack application building out the front and back ends. It was the first time I had set up user authentication and that was a struggle at first. <br/><br/>
                     There were times where this felt overwhelming but in the end it was very satisfying to finish it and have it function exactly as I wanted and expected! In the end, I think this was one of my favorite assignments that I had to complete for bootcamp. <br/><br/>
                 </Col>

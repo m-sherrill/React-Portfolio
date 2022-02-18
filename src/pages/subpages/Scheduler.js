@@ -47,7 +47,7 @@ const Scheduler = () => {
                 </Col>
 
                 <Col s={12} className="left-align" id="thoughts">
-                    <h5>Project Thoughts</h5>
+                <br/> <h5>Project Thoughts</h5>
                     This project was really fun. We were provided starter code, which I nearly removed all of it and
                     started over. I really enjoy the CSS styling of any project I work on and the original code would
                     create a project that physically looked like every other student's in the class. I wanted mine to be

@@ -44,7 +44,7 @@ const Weatherapp = () => {
                 </Col>
 
                 <Col s={12} className="left-align" id="thoughts">
-                    <h5>Project Thoughts</h5>
+                <br/><h5>Project Thoughts</h5>
                     This was my first time using a web API and the OpenWeatherApp API is very stable and user friendly. This was overall a wonderful project to get my feet wet with. I also took the time to learn Materialize CSS with this project, which I love. <br /><br />
                     For future development, I would be interest in adding a hourly forcast to this. Since I created this application, I actually use it constantly for easy weather information access. I hope to continue to expand it so when I need to check weather conditions, this will have all I need. Kind of fun to have created a personally useable system. 
                 </Col>

@@ -56,7 +56,7 @@ const Lifetracker = () => {
         </Col>
 
         <Col s={12} className="left-align" id="thoughts">
-          <h5>Project Thoughts</h5>
+        <br/><h5>Project Thoughts</h5>
           This was my second group project for bootcamp! It was again really fun to pull together. Our team collaborated well and worked together to pull off our idea.<br /><br />
           My person success was deploying the calendar module for this application. I spent hours reading the FullCalendar.io documentation and was successful in getting events to pull and delete from the database. When I originally had my event information populate onto the calendar, it was a true blissful moment!
         </Col>
