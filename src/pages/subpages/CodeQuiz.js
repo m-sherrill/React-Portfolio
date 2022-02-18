@@ -15,7 +15,7 @@ const CodeQuiz = () => {
     <ProjectsHeader />
     
     <Container className="center-align">
-            <h1>Weather App</h1>
+            <h1>Code Quiz</h1>
             <h4>Project Report</h4><br /><br />
             <Row id="btnContainer">
                 <a href="https://m-sherrill.github.io/code-quiz/" target="_blank" rel="noreferrer"><Button className="teal darken-2">Live
