@@ -133,22 +133,22 @@ function ContactForm() {
                         style={styles.textarea}
                     /><br /><br />
                     <div style={styles.submit}>
-                    <Button className="center-align" type="submit" value="send">Submit</Button>
-                    {errorMessage && (
-                    
-                        <p style={styles.error}>{errorMessage}</p>
-                    
-                )}
-                {successMessage && (
-                    
-                        <p>{successMessage}</p>
-                    
-                )}
-                </div>
+                        <Button className="center-align" type="submit" value="send">Submit</Button>
+                        {errorMessage && (
+
+                            <p style={styles.error}>{errorMessage}</p>
+
+                        )}
+                        {successMessage && (
+
+                            <p>{successMessage}</p>
+
+                        )}
+                    </div>
                 </form>
-                
+
             </Container>
-            <br/>
+            <br />
         </>
     );
 }

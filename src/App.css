@@ -11,7 +11,7 @@ body {
 header {
   background-image: url("./images/pexels-sohail-na-807598.jpg");
   height: 100px;
- 
+
   border-bottom: 1px solid rgba(255, 255, 255, 0.466);
 
   margin-bottom: 35px;
@@ -20,9 +20,10 @@ header {
 }
 
 #footer {
-font-size: 16px;
-padding: 10px;
-border-top: 1px solid rgba(255, 255, 255, 0.466);
+  font-size: 16px;
+  padding: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.466);
+  text-shadow: 2px 2px 5px black;
 }
 
 a:link, a:visited {
@@ -96,7 +97,7 @@ button {
 
 #aboutMePhoto {
   float: left;
- padding: 10px;
+  padding: 10px;
 }
 
 #workContainer {

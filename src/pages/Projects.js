@@ -49,8 +49,8 @@ const Projects = () => {
               </map>
             </div>
             <div id="weatherAppContent" style={styles.cardLinks}>
-            <a href="https://m-sherrill.github.io/weather-app/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/m-sherrill/weather-app" target="_blank" rel="noreferrer">GitHub
-              Repo</a><br /><Link to="/weatherapp">Project Report</Link></div>
+              <a href="https://m-sherrill.github.io/weather-app/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/m-sherrill/weather-app" target="_blank" rel="noreferrer">GitHub
+                Repo</a><br /><Link to="/weatherapp">Project Report</Link></div>
           </div>
 
           <div>
@@ -73,7 +73,7 @@ const Projects = () => {
                   href="https://lifetracker-project2.herokuapp.com/" target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="lifetrackerContent" style={styles.cardLinks}><a href="https://lifetracker-project2.herokuapp.com/" target="_blank" rel="noreferrer">Live Deployment</a><br/><a href="https://github.com/m-sherrill/Project-2" target="_blank" rel="noreferrer">GitHub
+            <div id="lifetrackerContent" style={styles.cardLinks}><a href="https://lifetracker-project2.herokuapp.com/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/m-sherrill/Project-2" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/lifetracker">Project Report</Link></div>
           </div>
 
@@ -85,7 +85,7 @@ const Projects = () => {
                   href="https://msherrill-techblog.herokuapp.com/" target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="techblogContent" style={styles.cardLinks}><a href="https://msherrill-techblog.herokuapp.com" target="_blank" rel="noreferrer">Live Deployment</a><br/><a href="https://github.com/m-sherrill/tech-blog" target="_blank" rel="noreferrer">GitHub
+            <div id="techblogContent" style={styles.cardLinks}><a href="https://msherrill-techblog.herokuapp.com" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/m-sherrill/tech-blog" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/techblog">Project Report</Link></div>
           </div>
 
@@ -97,7 +97,7 @@ const Projects = () => {
                   href="https://m-sherrill.github.io/code-quiz/" target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="techblogContent" style={styles.cardLinks}><a href="https://m-sherrill.github.io/code-quiz/" target="_blank" rel="noreferrer">Live Deployment</a><br/><a href="https://github.com/m-sherrill/code-quiz" target="_blank" rel="noreferrer">GitHub
+            <div id="techblogContent" style={styles.cardLinks}><a href="https://m-sherrill.github.io/code-quiz/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/m-sherrill/code-quiz" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /><Link to="/codequiz">Project Report</Link></div>
           </div>
         </Row>

@@ -25,19 +25,19 @@ const Contact = () => {
           <a href="mailto:mo.sherrill@outlook.com" target="_blank" rel="noreferrer" ><img src="assets/images/emailicon.png" alt="email icon" data-tip="Email" data-text-color="black" /></a>
 
           <a href="http://github.com/m-sherrill" target="_blank" rel="noreferrer" ><img src="assets/images/githubicon.png"
-            data-tip="GitHub" alt="github icon" data-text-color="black"/></a>
+            data-tip="GitHub" alt="github icon" data-text-color="black" /></a>
           <a href="https://www.linkedin.com/in/morgan-sherrill-9a838b28/" target="_blank" rel="noreferrer" ><img
-            src="assets/images/linkedinicon.png" data-tip="LinkedIn" alt="linkedin icon" data-text-color="black"/></a>
+            src="assets/images/linkedinicon.png" data-tip="LinkedIn" alt="linkedin icon" data-text-color="black" /></a>
           <a href="assets/msherrillresume.pdf" download rel="noreferrer" ><img src="assets/images/resume.png"
             data-tip="Resume" alt="resume icon" data-text-color="black" /></a>
         </div>
-        
+
         <ContactForm />
-       
+
         <Col s={12} className="center-align">
           <ReturnToTop />
         </Col>
-              
+
       </Container>
       <Footer />
     </>

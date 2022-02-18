@@ -17,7 +17,7 @@ import CodeQuiz from './pages/subpages/CodeQuiz'
 
 ReactDOM.render(
   <React.StrictMode>
-{/* Routes for all the pages within the application */}
+    {/* Routes for all the pages within the application */}
     <Router basename="/">
       <Routes>
         <Route path="/" element={<App />} />
@@ -30,7 +30,6 @@ ReactDOM.render(
         <Route path="/lifetracker" element={<Lifetracker />} />
         <Route path="/techblog" element={<TechBlog />} />
         <Route path="/codequiz" element={<CodeQuiz />} />
-        {/* <Route path="/*" element={<Page404 />} /> */}
       </Routes>
     </Router>
   </React.StrictMode>,
