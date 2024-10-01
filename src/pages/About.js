@@ -21,8 +21,8 @@ const About = () => {
             <br /><img src="assets/images/msherrill2.png" alt="Morgan Sherrill" />
           </Col>
         </Row>
-        <Container className="left-align" id="aboutMeText">I have worked as an Operations Manager for a small business for 13 years
-          in the printer cartridge industry. As much as I enjoy business operations, it is not my true passion. I am currently making a switch into the world of web development, which I have found I love and crave. It is pretty exciting taking an idea and making it a reality. <br /><br />I am enrolled in the University of Washington coding bootcamp and really look forward to a career in an industry I wake up every day <strong>WANTING</strong> to be apart of.
+        <Container className="left-align" id="aboutMeText">I have worked as an Operations Manager for a small business for 16 years
+          in the printer cartridge industry. I enjoy business and web development equally. The real passion lies in building something. Whether that is a new process for important business activies or an entirely new application. I enjoy building things and improving the world around me. 
           <br />
           <br />On a personal level, I enjoy spending time with my husband, our son, and our mini dachshund. I have participated in several endurance trail runs and love being in the mountains.
           <br />
